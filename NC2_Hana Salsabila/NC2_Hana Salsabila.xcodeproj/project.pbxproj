@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C53CC43C2892E8E100988AF8 /* LessonDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53CC43B2892E8E100988AF8 /* LessonDetailTableViewController.swift */; };
+		C55CFCE42888394E0054ACA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55CFCE32888394E0054ACA1 /* AppDelegate.swift */; };
+		C55CFCE62888394E0054ACA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55CFCE52888394E0054ACA1 /* SceneDelegate.swift */; };
+		C55CFCE82888394E0054ACA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55CFCE72888394E0054ACA1 /* ViewController.swift */; };
+		C55CFCEB2888394E0054ACA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55CFCE92888394E0054ACA1 /* Main.storyboard */; };
+		C55CFCEE2888394E0054ACA1 /* NC2_Hana_Salsabila.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C55CFCEC2888394E0054ACA1 /* NC2_Hana_Salsabila.xcdatamodeld */; };
+		C55CFCF0288839500054ACA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55CFCEF288839500054ACA1 /* Assets.xcassets */; };
+		C55CFCF3288839500054ACA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55CFCF1288839500054ACA1 /* LaunchScreen.storyboard */; };
+		C55CFD0628883ECA0054ACA1 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55CFD0528883ECA0054ACA1 /* Home.storyboard */; };
+		C55CFD18288848040054ACA1 /* ColorPallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55CFD17288848040054ACA1 /* ColorPallete.swift */; };
+		C55CFD202888601F0054ACA1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55CFD1F2888601F0054ACA1 /* HomeViewController.swift */; };
+		C55CFD222888786A0054ACA1 /* UINIB+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55CFD212888786A0054ACA1 /* UINIB+Loader.swift */; };
+		C56F24BA2890D26200C6BD54 /* LessonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56F24B92890D26200C6BD54 /* LessonDetailViewController.swift */; };
+		C56F24BC2892091000C6BD54 /* AddCourseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56F24BB2892090F00C6BD54 /* AddCourseTableViewController.swift */; };
+		C56F24C12892402700C6BD54 /* AddLessonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56F24C02892402700C6BD54 /* AddLessonTableViewController.swift */; };
+		C56F24C52892C19C00C6BD54 /* AddCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56F24C32892C19C00C6BD54 /* AddCategoryCollectionViewCell.swift */; };
+		C56F24C62892C19C00C6BD54 /* AddCategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C56F24C42892C19C00C6BD54 /* AddCategoryCollectionViewCell.xib */; };
+		C5DDD45028893E0500663471 /* AddCourse.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5DDD44F28893E0500663471 /* AddCourse.storyboard */; };
+		C5DDD45228893E1C00663471 /* AddCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDD45128893E1C00663471 /* AddCourseViewController.swift */; };
+		C5DDD45628898A2E00663471 /* Lesson2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDD45528898A2E00663471 /* Lesson2TableViewCell.swift */; };
+		C5DDD459288A55AB00663471 /* LessonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDD457288A55AB00663471 /* LessonTableViewCell.swift */; };
+		C5DDD45A288A55AB00663471 /* LessonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DDD458288A55AB00663471 /* LessonTableViewCell.xib */; };
+		C5DDD45D288AE89300663471 /* CourseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDD45B288AE89300663471 /* CourseCollectionViewCell.swift */; };
+		C5DDD45E288AE89300663471 /* CourseCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DDD45C288AE89300663471 /* CourseCollectionViewCell.xib */; };
+		C5DDD461288E434800663471 /* LessonDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5DDD460288E434800663471 /* LessonDetail.storyboard */; };
+		C5DDD463288E439500663471 /* CourseDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5DDD462288E439500663471 /* CourseDetail.storyboard */; };
+		C5DDD466288E48A200663471 /* MyReflections.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5DDD465288E48A200663471 /* MyReflections.storyboard */; };
+		C5DDD469288E499C00663471 /* Reflection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5DDD468288E499C00663471 /* Reflection.storyboard */; };
+		C5DDD46B288E4BF500663471 /* ReflectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDD46A288E4BF500663471 /* ReflectionViewController.swift */; };
+		C5DDD46D288E4DDB00663471 /* MyReflectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDD46C288E4DDB00663471 /* MyReflectionsViewController.swift */; };
+		C5DDD472288E50AF00663471 /* MyReflectionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDD470288E50AF00663471 /* MyReflectionsTableViewCell.swift */; };
+		C5DDD473288E50AF00663471 /* MyReflectionsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DDD471288E50AF00663471 /* MyReflectionsTableViewCell.xib */; };
+		C5DDD477288E690000663471 /* CourseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDD476288E690000663471 /* CourseDetailViewController.swift */; };
+		C5DDD47A288F6E8300663471 /* CategoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDD478288F6E8300663471 /* CategoriesCollectionViewCell.swift */; };
+		C5DDD47B288F6E8300663471 /* CategoriesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DDD479288F6E8300663471 /* CategoriesCollectionViewCell.xib */; };
+		C5DDD47D288F772A00663471 /* AddLessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDD47C288F772900663471 /* AddLessonViewController.swift */; };
+		C5DDD47F288F773700663471 /* AddLesson.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5DDD47E288F773700663471 /* AddLesson.storyboard */; };
+		C5DDD482288F9A7700663471 /* ReactionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDD480288F9A7600663471 /* ReactionCollectionViewCell.swift */; };
+		C5DDD483288F9A7700663471 /* ReactionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DDD481288F9A7600663471 /* ReactionCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C53CC43B2892E8E100988AF8 /* LessonDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonDetailTableViewController.swift; sourceTree = "<group>"; };
+		C55CFCE02888394E0054ACA1 /* NC2_Hana Salsabila.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NC2_Hana Salsabila.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55CFCE32888394E0054ACA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C55CFCE52888394E0054ACA1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C55CFCE72888394E0054ACA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C55CFCEA2888394E0054ACA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C55CFCED2888394E0054ACA1 /* NC2_Hana_Salsabila.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NC2_Hana_Salsabila.xcdatamodel; sourceTree = "<group>"; };
+		C55CFCEF288839500054ACA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C55CFCF2288839500054ACA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C55CFCF4288839500054ACA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C55CFD0528883ECA0054ACA1 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		C55CFD17288848040054ACA1 /* ColorPallete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPallete.swift; sourceTree = "<group>"; };
+		C55CFD1F2888601F0054ACA1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C55CFD212888786A0054ACA1 /* UINIB+Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINIB+Loader.swift"; sourceTree = "<group>"; };
+		C56F24B92890D26200C6BD54 /* LessonDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonDetailViewController.swift; sourceTree = "<group>"; };
+		C56F24BB2892090F00C6BD54 /* AddCourseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCourseTableViewController.swift; sourceTree = "<group>"; };
+		C56F24C02892402700C6BD54 /* AddLessonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLessonTableViewController.swift; sourceTree = "<group>"; };
+		C56F24C32892C19C00C6BD54 /* AddCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		C56F24C42892C19C00C6BD54 /* AddCategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddCategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		C5DDD44F28893E0500663471 /* AddCourse.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddCourse.storyboard; sourceTree = "<group>"; };
+		C5DDD45128893E1C00663471 /* AddCourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCourseViewController.swift; sourceTree = "<group>"; };
+		C5DDD45528898A2E00663471 /* Lesson2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson2TableViewCell.swift; sourceTree = "<group>"; };
+		C5DDD457288A55AB00663471 /* LessonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonTableViewCell.swift; sourceTree = "<group>"; };
+		C5DDD458288A55AB00663471 /* LessonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LessonTableViewCell.xib; sourceTree = "<group>"; };
+		C5DDD45B288AE89300663471 /* CourseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCollectionViewCell.swift; sourceTree = "<group>"; };
+		C5DDD45C288AE89300663471 /* CourseCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseCollectionViewCell.xib; sourceTree = "<group>"; };
+		C5DDD460288E434800663471 /* LessonDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LessonDetail.storyboard; sourceTree = "<group>"; };
+		C5DDD462288E439500663471 /* CourseDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CourseDetail.storyboard; sourceTree = "<group>"; };
+		C5DDD465288E48A200663471 /* MyReflections.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyReflections.storyboard; sourceTree = "<group>"; };
+		C5DDD468288E499C00663471 /* Reflection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Reflection.storyboard; sourceTree = "<group>"; };
+		C5DDD46A288E4BF500663471 /* ReflectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectionViewController.swift; sourceTree = "<group>"; };
+		C5DDD46C288E4DDB00663471 /* MyReflectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReflectionsViewController.swift; sourceTree = "<group>"; };
+		C5DDD470288E50AF00663471 /* MyReflectionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReflectionsTableViewCell.swift; sourceTree = "<group>"; };
+		C5DDD471288E50AF00663471 /* MyReflectionsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyReflectionsTableViewCell.xib; sourceTree = "<group>"; };
+		C5DDD476288E690000663471 /* CourseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailViewController.swift; sourceTree = "<group>"; };
+		C5DDD478288F6E8300663471 /* CategoriesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCollectionViewCell.swift; sourceTree = "<group>"; };
+		C5DDD479288F6E8300663471 /* CategoriesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesCollectionViewCell.xib; sourceTree = "<group>"; };
+		C5DDD47C288F772900663471 /* AddLessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLessonViewController.swift; sourceTree = "<group>"; };
+		C5DDD47E288F773700663471 /* AddLesson.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddLesson.storyboard; sourceTree = "<group>"; };
+		C5DDD480288F9A7600663471 /* ReactionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionCollectionViewCell.swift; sourceTree = "<group>"; };
+		C5DDD481288F9A7600663471 /* ReactionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReactionCollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C55CFCDD2888394E0054ACA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C55CFCD72888394E0054ACA1 = {
+			isa = PBXGroup;
+			children = (
+				C55CFCE22888394E0054ACA1 /* NC2_Hana Salsabila */,
+				C55CFCE12888394E0054ACA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C55CFCE12888394E0054ACA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C55CFCE02888394E0054ACA1 /* NC2_Hana Salsabila.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C55CFCE22888394E0054ACA1 /* NC2_Hana Salsabila */ = {
+			isa = PBXGroup;
+			children = (
+				C55CFCFA28883DDF0054ACA1 /* Feature */,
+				C55CFCFC28883E050054ACA1 /* Themes */,
+				C55CFCFD28883E0E0054ACA1 /* Helper */,
+				C55CFCFB28883DEC0054ACA1 /* Utilities */,
+				C55CFCE32888394E0054ACA1 /* AppDelegate.swift */,
+				C55CFCE52888394E0054ACA1 /* SceneDelegate.swift */,
+				C55CFCE72888394E0054ACA1 /* ViewController.swift */,
+				C55CFCE92888394E0054ACA1 /* Main.storyboard */,
+				C55CFCEF288839500054ACA1 /* Assets.xcassets */,
+				C55CFCF1288839500054ACA1 /* LaunchScreen.storyboard */,
+				C55CFCF4288839500054ACA1 /* Info.plist */,
+				C55CFCEC2888394E0054ACA1 /* NC2_Hana_Salsabila.xcdatamodeld */,
+			);
+			path = "NC2_Hana Salsabila";
+			sourceTree = "<group>";
+		};
+		C55CFCFA28883DDF0054ACA1 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				C55CFCFE28883E320054ACA1 /* Presentation */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		C55CFCFB28883DEC0054ACA1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C55CFD0428883E810054ACA1 /* CoreData */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C55CFCFC28883E050054ACA1 /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				C55CFD0128883E5F0054ACA1 /* Color */,
+				C55CFD0228883E640054ACA1 /* UI */,
+				C55CFD0328883E710054ACA1 /* Font */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		C55CFCFD28883E0E0054ACA1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C55CFD212888786A0054ACA1 /* UINIB+Loader.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		C55CFCFE28883E320054ACA1 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				C55CFCFF28883E3A0054ACA1 /* Model */,
+				C55CFD0028883E3F0054ACA1 /* Pages */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		C55CFCFF28883E3A0054ACA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C55CFD0028883E3F0054ACA1 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				C55CFD0728883F410054ACA1 /* HomePage */,
+				C55CFD0828883F4B0054ACA1 /* CourseDetail */,
+				C5DDD45F288E433300663471 /* LessonDetailPage */,
+				C5DDD44D28893DA100663471 /* NewCoursePage */,
+				C5DDD44E28893DCD00663471 /* NewLessonPage */,
+				C5DDD467288E498400663471 /* ReflectionPage */,
+				C5DDD464288E471D00663471 /* MyReflectionsPage */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		C55CFD0128883E5F0054ACA1 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				C55CFD17288848040054ACA1 /* ColorPallete.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		C55CFD0228883E640054ACA1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C56F24C22892C16A00C6BD54 /* AddCategoryViewCell */,
+				C55CFD0E288846490054ACA1 /* CourseViewCell */,
+				C55CFD0D288846330054ACA1 /* LessonViewCell */,
+				C55CFD0C288846200054ACA1 /* CategoriesViewCell */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C55CFD0328883E710054ACA1 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		C55CFD0428883E810054ACA1 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		C55CFD0728883F410054ACA1 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				C55CFD0528883ECA0054ACA1 /* Home.storyboard */,
+				C55CFD1F2888601F0054ACA1 /* HomeViewController.swift */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		C55CFD0828883F4B0054ACA1 /* CourseDetail */ = {
+			isa = PBXGroup;
+			children = (
+				C5DDD462288E439500663471 /* CourseDetail.storyboard */,
+				C5DDD476288E690000663471 /* CourseDetailViewController.swift */,
+			);
+			path = CourseDetail;
+			sourceTree = "<group>";
+		};
+		C55CFD0C288846200054ACA1 /* CategoriesViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C5DDD478288F6E8300663471 /* CategoriesCollectionViewCell.swift */,
+				C5DDD479288F6E8300663471 /* CategoriesCollectionViewCell.xib */,
+			);
+			path = CategoriesViewCell;
+			sourceTree = "<group>";
+		};
+		C55CFD0D288846330054ACA1 /* LessonViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C5DDD45528898A2E00663471 /* Lesson2TableViewCell.swift */,
+				C5DDD457288A55AB00663471 /* LessonTableViewCell.swift */,
+				C5DDD458288A55AB00663471 /* LessonTableViewCell.xib */,
+			);
+			path = LessonViewCell;
+			sourceTree = "<group>";
+		};
+		C55CFD0E288846490054ACA1 /* CourseViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C5DDD45B288AE89300663471 /* CourseCollectionViewCell.swift */,
+				C5DDD45C288AE89300663471 /* CourseCollectionViewCell.xib */,
+			);
+			path = CourseViewCell;
+			sourceTree = "<group>";
+		};
+		C56F24BD28923E3000C6BD54 /* ReflectionCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C5DDD480288F9A7600663471 /* ReactionCollectionViewCell.swift */,
+				C5DDD481288F9A7600663471 /* ReactionCollectionViewCell.xib */,
+			);
+			path = ReflectionCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		C56F24BE28923E4500C6BD54 /* AddLessonTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C56F24C02892402700C6BD54 /* AddLessonTableViewController.swift */,
+			);
+			path = AddLessonTableViewCell;
+			sourceTree = "<group>";
+		};
+		C56F24BF28923EB200C6BD54 /* AddCourseTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C56F24BB2892090F00C6BD54 /* AddCourseTableViewController.swift */,
+			);
+			path = AddCourseTableViewController;
+			sourceTree = "<group>";
+		};
+		C56F24C22892C16A00C6BD54 /* AddCategoryViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C56F24C32892C19C00C6BD54 /* AddCategoryCollectionViewCell.swift */,
+				C56F24C42892C19C00C6BD54 /* AddCategoryCollectionViewCell.xib */,
+			);
+			path = AddCategoryViewCell;
+			sourceTree = "<group>";
+		};
+		C5DDD44D28893DA100663471 /* NewCoursePage */ = {
+			isa = PBXGroup;
+			children = (
+				C56F24BF28923EB200C6BD54 /* AddCourseTableViewController */,
+				C5DDD44F28893E0500663471 /* AddCourse.storyboard */,
+				C5DDD45128893E1C00663471 /* AddCourseViewController.swift */,
+			);
+			path = NewCoursePage;
+			sourceTree = "<group>";
+		};
+		C5DDD44E28893DCD00663471 /* NewLessonPage */ = {
+			isa = PBXGroup;
+			children = (
+				C56F24BE28923E4500C6BD54 /* AddLessonTableViewCell */,
+				C5DDD47C288F772900663471 /* AddLessonViewController.swift */,
+				C5DDD47E288F773700663471 /* AddLesson.storyboard */,
+			);
+			path = NewLessonPage;
+			sourceTree = "<group>";
+		};
+		C5DDD45F288E433300663471 /* LessonDetailPage */ = {
+			isa = PBXGroup;
+			children = (
+				C5DDD460288E434800663471 /* LessonDetail.storyboard */,
+				C56F24B92890D26200C6BD54 /* LessonDetailViewController.swift */,
+				C53CC43B2892E8E100988AF8 /* LessonDetailTableViewController.swift */,
+			);
+			path = LessonDetailPage;
+			sourceTree = "<group>";
+		};
+		C5DDD464288E471D00663471 /* MyReflectionsPage */ = {
+			isa = PBXGroup;
+			children = (
+				C5DDD46E288E4ED100663471 /* MyReflectionsViewCell */,
+				C5DDD465288E48A200663471 /* MyReflections.storyboard */,
+				C5DDD46C288E4DDB00663471 /* MyReflectionsViewController.swift */,
+			);
+			path = MyReflectionsPage;
+			sourceTree = "<group>";
+		};
+		C5DDD467288E498400663471 /* ReflectionPage */ = {
+			isa = PBXGroup;
+			children = (
+				C56F24BD28923E3000C6BD54 /* ReflectionCollectionViewCell */,
+				C5DDD468288E499C00663471 /* Reflection.storyboard */,
+				C5DDD46A288E4BF500663471 /* ReflectionViewController.swift */,
+			);
+			path = ReflectionPage;
+			sourceTree = "<group>";
+		};
+		C5DDD46E288E4ED100663471 /* MyReflectionsViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C5DDD470288E50AF00663471 /* MyReflectionsTableViewCell.swift */,
+				C5DDD471288E50AF00663471 /* MyReflectionsTableViewCell.xib */,
+			);
+			path = MyReflectionsViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C55CFCDF2888394E0054ACA1 /* NC2_Hana Salsabila */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55CFCF7288839500054ACA1 /* Build configuration list for PBXNativeTarget "NC2_Hana Salsabila" */;
+			buildPhases = (
+				C55CFCDC2888394E0054ACA1 /* Sources */,
+				C55CFCDD2888394E0054ACA1 /* Frameworks */,
+				C55CFCDE2888394E0054ACA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NC2_Hana Salsabila";
+			productName = "NC2_Hana Salsabila";
+			productReference = C55CFCE02888394E0054ACA1 /* NC2_Hana Salsabila.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C55CFCD82888394E0054ACA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C55CFCDF2888394E0054ACA1 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C55CFCDB2888394E0054ACA1 /* Build configuration list for PBXProject "NC2_Hana Salsabila" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C55CFCD72888394E0054ACA1;
+			productRefGroup = C55CFCE12888394E0054ACA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C55CFCDF2888394E0054ACA1 /* NC2_Hana Salsabila */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C55CFCDE2888394E0054ACA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56F24C62892C19C00C6BD54 /* AddCategoryCollectionViewCell.xib in Resources */,
+				C5DDD47F288F773700663471 /* AddLesson.storyboard in Resources */,
+				C5DDD463288E439500663471 /* CourseDetail.storyboard in Resources */,
+				C5DDD466288E48A200663471 /* MyReflections.storyboard in Resources */,
+				C5DDD473288E50AF00663471 /* MyReflectionsTableViewCell.xib in Resources */,
+				C55CFD0628883ECA0054ACA1 /* Home.storyboard in Resources */,
+				C55CFCF3288839500054ACA1 /* LaunchScreen.storyboard in Resources */,
+				C5DDD45028893E0500663471 /* AddCourse.storyboard in Resources */,
+				C55CFCF0288839500054ACA1 /* Assets.xcassets in Resources */,
+				C5DDD45E288AE89300663471 /* CourseCollectionViewCell.xib in Resources */,
+				C55CFCEB2888394E0054ACA1 /* Main.storyboard in Resources */,
+				C5DDD47B288F6E8300663471 /* CategoriesCollectionViewCell.xib in Resources */,
+				C5DDD461288E434800663471 /* LessonDetail.storyboard in Resources */,
+				C5DDD469288E499C00663471 /* Reflection.storyboard in Resources */,
+				C5DDD45A288A55AB00663471 /* LessonTableViewCell.xib in Resources */,
+				C5DDD483288F9A7700663471 /* ReactionCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C55CFCDC2888394E0054ACA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56F24C52892C19C00C6BD54 /* AddCategoryCollectionViewCell.swift in Sources */,
+				C5DDD47A288F6E8300663471 /* CategoriesCollectionViewCell.swift in Sources */,
+				C5DDD459288A55AB00663471 /* LessonTableViewCell.swift in Sources */,
+				C5DDD46D288E4DDB00663471 /* MyReflectionsViewController.swift in Sources */,
+				C56F24BA2890D26200C6BD54 /* LessonDetailViewController.swift in Sources */,
+				C55CFD222888786A0054ACA1 /* UINIB+Loader.swift in Sources */,
+				C5DDD45D288AE89300663471 /* CourseCollectionViewCell.swift in Sources */,
+				C5DDD472288E50AF00663471 /* MyReflectionsTableViewCell.swift in Sources */,
+				C5DDD45228893E1C00663471 /* AddCourseViewController.swift in Sources */,
+				C55CFD18288848040054ACA1 /* ColorPallete.swift in Sources */,
+				C55CFCEE2888394E0054ACA1 /* NC2_Hana_Salsabila.xcdatamodeld in Sources */,
+				C5DDD482288F9A7700663471 /* ReactionCollectionViewCell.swift in Sources */,
+				C55CFCE82888394E0054ACA1 /* ViewController.swift in Sources */,
+				C55CFCE42888394E0054ACA1 /* AppDelegate.swift in Sources */,
+				C56F24C12892402700C6BD54 /* AddLessonTableViewController.swift in Sources */,
+				C53CC43C2892E8E100988AF8 /* LessonDetailTableViewController.swift in Sources */,
+				C5DDD477288E690000663471 /* CourseDetailViewController.swift in Sources */,
+				C55CFD202888601F0054ACA1 /* HomeViewController.swift in Sources */,
+				C55CFCE62888394E0054ACA1 /* SceneDelegate.swift in Sources */,
+				C5DDD47D288F772A00663471 /* AddLessonViewController.swift in Sources */,
+				C56F24BC2892091000C6BD54 /* AddCourseTableViewController.swift in Sources */,
+				C5DDD45628898A2E00663471 /* Lesson2TableViewCell.swift in Sources */,
+				C5DDD46B288E4BF500663471 /* ReflectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C55CFCE92888394E0054ACA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C55CFCEA2888394E0054ACA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C55CFCF1288839500054ACA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C55CFCF2288839500054ACA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C55CFCF5288839500054ACA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C55CFCF6288839500054ACA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C55CFCF8288839500054ACA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y8686RJS9V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NC2_Hana Salsabila/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Leatice : Learn and Practice";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Home;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AppleDeveloperAcademy.NC2-Hana-Salsabila";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C55CFCF9288839500054ACA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y8686RJS9V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NC2_Hana Salsabila/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Leatice : Learn and Practice";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Home;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AppleDeveloperAcademy.NC2-Hana-Salsabila";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C55CFCDB2888394E0054ACA1 /* Build configuration list for PBXProject "NC2_Hana Salsabila" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55CFCF5288839500054ACA1 /* Debug */,
+				C55CFCF6288839500054ACA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C55CFCF7288839500054ACA1 /* Build configuration list for PBXNativeTarget "NC2_Hana Salsabila" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55CFCF8288839500054ACA1 /* Debug */,
+				C55CFCF9288839500054ACA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C55CFCEC2888394E0054ACA1 /* NC2_Hana_Salsabila.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C55CFCED2888394E0054ACA1 /* NC2_Hana_Salsabila.xcdatamodel */,
+			);
+			currentVersion = C55CFCED2888394E0054ACA1 /* NC2_Hana_Salsabila.xcdatamodel */;
+			path = NC2_Hana_Salsabila.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C55CFCD82888394E0054ACA1 /* Project object */;
+}
